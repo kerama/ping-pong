@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ping</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <center>
+        <h1 class="header1">PING PONG</h1>
+      </center>
+    </div><br><br>
+    <div class="col-md-4">
+      <h4>About Ping Pong</h4>
+      <p style="color: navy blue;">Created by:</p>
+      <p>Brian Kerama</p>
+      <p style="color: navy blue;">Github Username/URL:</p>
+      <p><a href="https://github.com/kerama/ping-pong.git" style="color: #122b41;">Kerama</a></p>
+    </div>
+    <div class="col-md-8">
+      <h5>Let's Play!</h5>
+      <h6>Rules:</h6>
+      <p>Ping Pong will count up to your number from 1 with the following exceptions as such:</p>
+      <ol>
+        <li>Numbers divisible by 3 becomes "ping"</li>
+        <li>Numbers divisible by 5 becomes "pong"</li>
+        <li>Numbers divisible by 3 and 5 becomes "pingpong"</li>
+      </ol><br>
+
+      <form id="number">
+        <div class="form-group">
+          <label for="numberEntered">Enter your number here:</label>
+          <input id="numberEntered" type="text">
+        </div>
+        <button type="submit" class="btn btn-success">Click Here</button>
+      </form>
+    </div><br><br>
+    <div class="output">
+
+      <ul id="demo"></ul>
+
+
+    </div>
+  </div>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

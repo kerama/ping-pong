@@ -1,0 +1,30 @@
+body{
+    background-color: green;
+}
+.header{
+    background-color: blue;
+    height: 215px;
+}
+h1{
+    font-size: 148px;
+}
+p{
+    font-size: 35px;
+    color: blue;
+
+}
+h4{
+    color: orange;
+    font-size: 38px;
+}
+.header1{
+    padding-top: 22px;
+
+}
+h5{
+    color: orange;
+    font-size: 39px;
+  }
+  .col-md-4{
+      float: left;
+  }
